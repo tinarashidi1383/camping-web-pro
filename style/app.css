@@ -1,0 +1,1242 @@
+/* :root{
+	--orange:#E76F51;
+	--white:#FFF;
+}
+
+html{
+	box-sizing: border-box;
+}
+
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+
+
+body{
+	line-height: 1.6;
+	font-size: 1.6rem;
+	font-family: 'Roboto';
+}
+
+.content{
+	background-color: cadetblue;
+	height: 2rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	background: linear-gradient(rgba(59,55,53,0.5),rgba(59,55,53,0.5)),url('../images/header-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 30rem;
+	border-bottom-left-radius: 10rem;
+	border-bottom-right-radius: 10rem;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.app_logo{
+	display: block;
+	width: 4rem;
+	height: 4rem;
+
+}
+
+.app_logo_img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.menu{
+	/* display: none; */
+	/* display: flex;
+
+} */
+
+/* .menu_item{
+	margin-right: 3.5rem;
+
+}
+
+
+.menu_link{
+	color: #FFF;
+
+}
+
+.nav_menu{
+	position: fixed;
+	top: 0;
+	left: -25rem;
+	bottom: 0;
+	width: 25rem;
+	background-color: rgb(95, 97, 97);
+	padding: 2rem;
+	transition: all 250ms ease-in-out;
+}
+
+.nav_menu--open{
+	left: 0;
+}
+
+.mobile_menu{
+	margin-bottom: 3rem;
+}
+
+.mobile_menu_item{
+	margin-bottom: 0.5rem;
+
+}
+
+.mobile_menu_link{
+	color: azure;
+	
+
+}
+
+.nav_menu_links{
+	display: flex;
+
+}
+
+.nav_menu_link{
+	color: azure;
+	border: 1.5px solid var(--white);
+	display: block;
+	padding: 1rem;
+	flex-grow: 1;
+	text-align: center;
+
+}
+
+.nav_menu_link--border{
+
+}
+
+.header_links{
+	display: none;
+
+}
+
+.header_link{
+
+}
+
+.header_link{
+
+}
+
+.header_link--border{
+
+}
+
+.nav_btn{
+	background-color: aliceblue;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.nav_btn-line{
+	display: block;
+	width: 2.5rem;
+	height: 0.2rem;
+	border-radius: 5rem;
+	background-color: var(--orange);
+	position: relative;
+	transition: all 100ms ease-in-out;
+
+}
+
+.nav_btn-line::before,
+.nav_btn-line::after{
+	content: '';
+	position: absolute;
+	width: 2.5rem;
+	height: 0.2rem;
+	border-radius: 5rem;
+	background-color: var(--orange);
+	transition: all 200ms ease-in-out;
+}
+
+.nav_btn-line::before{
+	top: -0.6rem;
+
+}
+
+.nav_btn-line::after{
+	top: 0.6rem;
+	
+}
+
+.nav_btn--open .nav_btn-line{
+	background-color: transparent;
+}
+
+.nav_btn--open .nav_btn-line::before{
+	transform: translateY(9px) rotate(45deg);
+}
+
+.nav_btn--open .nav_btn-line::after{
+	transform: translateY(-9px) rotate(-45deg);
+	
+} */ 
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* :root {
+    --orange: #E76F51;
+    --white: #FFF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+}
+
+.content {
+    background-color: cadetblue;
+    height: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: linear-gradient(rgba(59, 55, 53, 0.4), rgba(59, 55, 53, 0.4)), url('../images/header-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 45rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+} */
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    flex-wrap: nowrap;
+}
+
+
+.app_logo {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    
+    flex-shrink: 0; 
+	margin-right: 0.5rem;
+}
+
+.app_logo_img {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* .menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    flex-shrink: 1; 
+}
+
+.menu_item {
+    
+    margin-right: 1.2rem; 
+} */
+
+/* .nav_wrapper{
+	display: flex;
+	align-items: center;
+} */
+
+
+/* .menu_link {
+    color: var(--white);
+    transition: color 0.2s ease;
+    white-space: nowrap; /* مهم: از شکستن متن "Near me" جلوگیری می‌کند */
+/* } */ 
+
+/* .menu_link:hover {
+    color: var(--orange);
+} */
+
+
+/* استایل‌های لینک‌های ورود/ثبت نام دسکتاپ (header_links) */
+/* .header_links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0; /* مهم: جلوگیری از فشرده شدن دکمه‌ها */
+/* } */ 
+
+/* .header_link {
+    color: var(--white);
+    padding: 1rem 0;
+	font-family: "Roboto Medium";
+    white-space: nowrap; /* برای جلوگیری از شکستن متن */
+/* } */ 
+
+
+
+/* .header_link--border {
+    border: 1px solid var(--white);
+    padding: 0.7rem 2rem;
+    border-radius: 5rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.header_link--border:hover {
+    background-color: var(--orange);
+    border-color: var(--orange);
+} */
+
+
+/* استایل‌های موبایل: مخفی کردن موارد موبایل برای دسکتاپ */
+/* .nav_menu {
+    display: none; 
+}
+
+.nav_btn {
+    display: none; 
+} */
+
+/* _______________________________________- */
+
+:root {
+    --orange: #E76F51;
+    --white: #fff;
+    --grey: #D2D2D2;
+    --primaty-font:"Roboto",Arial, Helvetica, sans-serif;
+    --primaty-font-md:"Roboto Medium",Arial, Helvetica, sans-serif;
+    --secendary-font:"Archivo Black",Arial, Helvetica, sans-serif;
+    --app-bg:#FAF4F2;
+    --secendery_color:#F8E1DB;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */
+    scroll-behavior: smooth;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primaty-font);
+    background-color: var(--app-bg);
+}
+
+/*
+
+-- Reset Style --
+
+*/
+
+a {
+    text-decoration: none;
+}
+
+/*
+
+-- Helper Class --
+
+*/
+
+/*
+
+-- App Style --
+
+*/
+
+.header {
+    background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../images/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 120vh;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.app_logo {
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-right: 3rem;
+}
+
+.app_logo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+	display: none; 
+    /* align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-shrink: 1; */
+    /* display: none; */
+}
+
+.menu_item {
+	margin-right: 1.5rem;
+    /* margin-right: 1.5rem; */
+}
+
+.menu_link {
+	color: var(--white);
+    transition: color 0.2s ease;
+    white-space: nowrap; 
+    /* color: var(--grey); */
+}
+
+.menu_link:hover{
+    color: #E76F51;
+    transition: color 150ms ease-in;
+}
+
+.menu_link--active{
+    color: #E76F51;
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu_link--active::before{
+    content: '';
+    position: absolute;
+    width: 4rem;
+    height: 0.2rem;
+    border-radius: 10rem;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: 0.7rem;
+    z-index: -1;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+
+
+
+.nav_menu {
+    position: fixed;
+    top: 0;
+    left: -25rem;
+    bottom: 0;
+    width: 25rem;
+    background-color: #3d3d3d;
+    padding: 2.5rem;
+    transition: all 250ms ease-in-out;
+    z-index: 100;
+}
+.nav_menu--open{
+    left: 0;
+}
+.mobile_menu {
+    margin-bottom: 3rem;
+}
+
+.mobile_menu_item {
+    margin-bottom: 1rem;
+}
+
+.mobile_menu_link {
+    color: var(--white);
+    position: relative;
+    transition: all 250ms ease-in-out;
+}
+
+
+
+.mobile_menu_link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0.3rem;
+    border-radius: 10rem;
+    background-color: var(--orange);
+    transition: all 250ms ease-in-out;
+}
+
+.mobile_menu_link:hover{
+    padding-left: 2.3rem;
+}
+
+.mobile_menu_link:hover::before{
+    width: 1.6rem;
+}
+
+
+.nav_menu_links {
+    display: flex;
+}
+
+.nav_menu_link {
+    color: var(--white);
+    border: 1px solid var(--white);
+    display: block;
+    padding: 1rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav_menu_title{
+    color: var(--white);
+    font-size: 2rem;
+    font-family: var(--secendary-font);
+    border-bottom: 1.5px solid var(--white);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nav_menu_link:hover{
+    background-color: #fff;
+    color: #3d3d3d;
+    border-radius: 2rem;
+}
+
+.nav_menu_link--border {
+
+}
+
+.nav_links {
+    display: none;
+}
+
+.nav_link {
+    color: var(--white);
+    font-family: var(--primaty-font-md);
+    margin-left: 1.5rem;
+}
+
+.nav_link--border {
+    border: 1px solid var(--white);
+    padding: 1rem 2.5rem;
+    border-radius: 10rem;
+}
+
+.nav_btn {
+    background-color: var(--white);
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_btn-line {
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: var(--orange);
+    position: relative;
+    transition: all 150ms ease-in-out;
+}
+
+.nav_btn-line::before,
+.nav_btn-line::after {
+    content: ' ';
+    position: absolute;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: var(--orange);
+    transition: all 200ms ease-in-out;
+}
+
+.nav_btn-line::before {
+    top: -0.8rem;
+}
+
+.nav_btn-line::after {
+    top: 0.8rem;
+}
+
+.nav_btn--open .nav_btn-line {
+    background-color: transparent;
+}
+
+.nav__btn--open .nav__btn-line::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.nav__btn--open .nav_btn-line::after {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.btn{
+    border-radius: 10rem;
+    color: var(--white);
+    background-color: var(--orange);
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primaty-font-md);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_content{
+    text-align: center;
+    color: var(--white);
+    margin-top: 6rem;
+
+}
+
+.header_content_title{
+    font-family: var(--secendary-font);
+    font-size: 5rem;
+    line-height: 1.2;
+    max-width: 35rem;
+    margin: 0 auto 3rem auto;
+
+}
+
+.header_content_caption{
+    font-size: 1.8rem;
+    max-width: 34rem;
+    margin: 0 auto 2rem auto;
+
+}
+
+.header_content_link{
+    background-color: var(--orange);
+
+}
+
+/* .main{
+    padding: 4rem 0;
+
+}
+
+.services{
+    margin-top: -10rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service{
+    background-color:var(--white);
+    width: 32rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3d3d3d;
+    padding: 0 4rem;
+    height: 26rem;
+    flex-grow: 1;
+    width: 36rem;
+
+
+}
+
+.service_img{
+    display: block;
+}
+
+.service_title{
+    font-family: var(--secendary-font);
+    font-size: 1.8rem;
+    margin: 1.5rem 0 0.8rem 0;
+
+}
+
+.service_caption{
+
+} */
+
+
+.main{
+    padding: 4rem 0;
+}
+
+/*
+
+==================
+     Services
+==================
+
+*/
+.services{
+    margin-top: -20rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4rem;
+    margin-left: -4rem;
+}
+.service{
+    background-color: var(--white);
+    width: 30rem;
+    height: 26rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    color: var(--dark);
+    margin-bottom: 2rem;
+    flex-grow: 1;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.service_img{
+    display: block;
+}
+.service_title{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    margin: 1.5rem 0 0.6rem 0;
+}
+.service_caption{
+
+}
+
+.destinations{
+    text-align: center;
+    padding: 6rem 0;
+    color: rgb(26, 26, 26);
+
+}
+
+.destinations_logo{
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.destinations_title{
+    font-family: var(--secondary-font);
+    font-size: 3rem;
+    max-width: 36rem;
+    margin: 3rem auto;
+
+}
+
+.destinations_btn{
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    background-color: transparent;
+    transition: all 100ms ease-in;
+    margin-top: 3rem;
+}
+
+.destinations_btn:hover{
+    color: var(--white);
+    background-color: var(--orange);
+    
+
+}
+
+.destinations_places{
+    display: grid;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    margin-top: 30px; 
+    margin-left: -4rem;
+    margin-right: -4rem;
+
+}
+
+
+
+
+.place{
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 2rem;
+    color: rgb(36, 36, 36);
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* فاصله داخلی (پدینگ) برای جدا کردن محتوا از لبه‌های کارت */
+    padding: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+    flex-grow: 1;
+    overflow: hidden;
+
+}
+
+.place_banner{
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    height: 18rem;
+    /* border: 0.2rem solid var(--orange); */
+
+}
+
+.place_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.place_like{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+
+}
+
+.palce_like_icon{
+
+}
+
+.place_price{
+    background-color: var(--white);
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    right: 0;
+    width: 15rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+
+}
+
+.place_price_text{
+    font-family: var(--primaty-font-md);
+    color: var(--orange);
+    text-align: center;
+
+}
+
+.place_title{
+    font-family: var(--secendary-font);
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    white-space: nowrape;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.place_caption{
+    margin-bottom: 3rem;
+
+}
+
+.place_link{
+    color:rgb(168, 167, 167);
+    background-color: rgba(141,141,141,0.1);
+
+
+}
+
+.place_link:hover{
+    color:rgb(123, 123, 123);
+    background-color: rgba(105, 105, 105, 0.1);
+    
+}
+
+.place .place_link {
+    display: block; /* برای اینکه margin: auto کار کند، باید display: block باشد. */
+    width: fit-content; /* عرض دکمه به اندازه محتوایش باشد. */
+    margin: 15px auto 0 auto; /* دکمه را در مرکز افقی قرار می‌دهد. */
+}
+
+.btn {
+    /* ... استایل‌های پس‌زمینه، border-radius و padding ... */
+    padding: 10px 20px; /* این پدینگ اولیه را کنترل می‌کند */
+}
+
+.newsletter{
+    background-color: var(--secendery_color);
+    border-radius: 2rem;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: -3rem;
+    margin-left: -3rem;
+    position: relative;
+
+}
+
+.newsletter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../svgs/shape3.svg');
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 50rem;
+    background-size: contain;
+}
+
+.newsletter_content{
+
+}
+
+.newsletter_title{
+    font-family: var(--secendary-font);
+    font-size: 3rem; 
+    margin:1.5rem auto;
+
+}
+
+.newsletter_caption{
+    font-family: var(--primaty-font-md);
+
+}
+
+.newsletter_email_box{
+    position: relative;
+    background-color:var(--white);
+    height: 8rem;
+    padding: 0  1.5rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.newsletter_form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_email_icon{
+    flex-shrink: 0;
+
+}
+
+.newsletter_input{
+    outline: none;
+    border: none;
+    height: 100%;
+    color: #505050;
+    background-color: var(--white);
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+}
+
+.newsletter_submit{
+    outline: none;
+    border: none;
+    background-color: var(--orange);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.newsletter_banner{
+
+}
+
+.newsletter_img{
+    width: 100%;
+
+}
+
+
+.footer{
+    background-color: var(--secendery_color);
+    border-top-left-radius:10rem ;
+    border-top-right-radius:10rem ;
+    color: #434343;
+    padding-bottom: 4rem
+    /* background-color: var(--secendery_color);
+    border-top-left-radius:10rem ;
+    border-top-right-radius:10rem ;
+    color: #434343;
+    padding-bottom: 4rem; */
+}
+
+.footer > .container{
+    padding-top: 10rem;
+    position: relative;
+}
+
+.container{
+
+}
+
+.footer_wrapper{
+  */
+    /* ----- */
+    /* flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem; */
+}
+
+.footer_scroll{
+    width: 4.5rem; /* از 3rem به 4.5rem تغییر دادم تا فلش کوچک تر و گرد تر شود. */
+    height: 4.5rem;
+    border-radius: 50%; /* از 2rem به 50% تغییر دادم تا کاملاً دایره‌ای شود. */
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 👈 این خط را برای وسط قرار دادن آیکون فلش اضافه کنید. */
+    position: absolute;
+    /* right: 50%; */
+    transform: translateX(-50%); 
+    /* 3. جابجایی به کمی پایین‌تر: top را از -3rem به مقدار مثبت تغییر می‌دهیم. */
+    top: -2.25rem; 
+    /* width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    right: -6rem;
+    top: -3rem; */
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+
+
+.footer_scroll:hover{
+    background-color: #f0f0f0;
+}
+
+.footer_left{
+    max-width: 60rem;
+
+}
+
+.footer_content{
+    max-width: 100%;
+    order: 0;
+    
+
+}
+
+.footer_title{
+    font-family: var(--secondary-font);
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.footer_content_description{
+
+}
+
+.footer_app{
+    /* --- */
+    display: flex;
+    gap: 10rem; /* فاصله بین دو دکمه */
+    
+
+}
+
+.footer_app_link{
+    margin-right: 0rem;
+    
+}
+
+
+
+.footer_app_img{
+    height: 4rem; /* اندازه یکسان برای تصاویر اپلیکیشن */
+    width: auto;
+    display: block;
+    border-radius: 0.5rem; /* گرد کردن لبه های تصاویر */
+
+
+}
+
+.footer_right{
+    display: flex;
+    flex-wrap: wrap;
+    /* --- */
+    justify-content: center; /* ** این خط کلیدی برای وسط چین کردن ستون‌ها است ** */
+    /* ۴. فاصله از بالا و پایین (اختیاری) */
+    gap: 4rem; /* فاصله بین ستون‌ها در دسکتاپ و زمانی که به خط بعدی می‌روند */
+    margin-bottom: 5rem; /* فاصله از کپی‌رایت */
+
+    /* اگر نخواهید margin-left موجود در .footer_list در ستون اول فاصله ایجاد کند، آن را بردارید */
+    margin-left: 0;
+
+
+}
+
+.footer_list{
+    width: 21rem;
+    margin-left: 2rem;
+    /* ---- */
+    text-align: center;
+    /* margin-left: 0; */
+
+}
+
+.footer_pages_link{
+    color: rgb(62, 62, 62);
+    /* --- */
+;
+}
+
+.footer_pages_link:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.footer_pages_item{
+    margin-bottom: 1rem;
+    /* ---- */
+    margin-bottom: 1rem;
+    list-style: none; /* اطمینان از حذف علامت لیست (در صورت وجود) */
+    padding: 0;
+
+}
+
+.footer_copy_right{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    /* ---- */
+    /* border-top: 1px solid rgba(0, 0, 0, 0.1); اضافه کردن خط جدا کننده برای کپی رایت */
+}
+
+
+
+/* .footer_pages{
+    list-style: none;
+    padding: 0;
+} */
+
+
+/* ----- */
+
+.app_buttons {
+    display: flex; 
+    flex-direction: row; /* ** این خط کلیدی است **: دکمه‌ها را به صورت عمودی (زیر هم) نمایش می‌دهد */
+    gap: 1rem; /* فاصله بین دکمه‌ها */
+    margin-top: 2rem; /* فاصله از لینک‌های بالایی */
+    margin-left: -22.1rem;
+    /* ------------ */
+    /* برای وسط چین کردن دکمه‌ها درون .download_app_list */
+    justify-content: center;
+
+}
+
+.app_download{
+    font-weight: bold;
+    color: #E76F51;
+    margin-top: 3rem;
+    margin-left: -22.1rem;
+    /* ---- */
+    font-weight: bold;
+    color: #E76F51;
+    margin-top: 3rem;
+    /* ** مهم: margin-left منفی را حذف می‌کنیم یا آن را 0 می‌کنیم ** */
+    margin-left: -25rem; 
+}
+
+
+.line {
+  /* ضخامت خط را 1 پیکسل، استایل آن را یکپارچه (solid) و رنگش را خاکستری قرار می‌دهد */
+  border-top: 1.5px solid #5d5d5d;
+  margin-top: 5rem;
+  
+  /* برای ایجاد فاصله از عناصر دیگر */
+  margin: 20px 0; 
+
+}
+
+
+
+
+
+
+
+
+
